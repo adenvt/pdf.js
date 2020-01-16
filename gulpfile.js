@@ -1309,7 +1309,7 @@ gulp.task('dist-pre', gulp.series('generic', 'components', 'image_decoders',
   rimraf.sync(path.join(DIST_DIR, '*'));
 
   // Rebuilding manifests
-  var DIST_NAME = 'pdfjs-dist';
+  var DIST_NAME = '@privyid/pdfjs-dist';
   var DIST_DESCRIPTION = 'Generic build of Mozilla\'s PDF.js library.';
   var DIST_KEYWORDS = ['Mozilla', 'pdf', 'pdf.js'];
   var DIST_HOMEPAGE = 'http://mozilla.github.io/pdf.js/';
